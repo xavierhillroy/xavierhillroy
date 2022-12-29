@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @xavierhillroy
-- 👀 I’m interested 
 - 🌱 I’m currently in western university graduating in 2024
-- 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me xavierhillroy@gmail.com
 
 <!---
