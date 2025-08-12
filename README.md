@@ -4,9 +4,9 @@
 Western Computer Science graduate (Class of 2024) with a passion for new technologies and optimization algorithms. My research interests surround image compression, large language models, and evolutionary algorithms. I thrive on solving complex problems through innovative computational approaches.
 
 ## Research Interests
+- 🧬 **Evolutionary Algorithms**:  Masters area. 
 - 🖼️ **Image Compression**: Advanced lossless compression techniques; developed W-OP8, a weighted optimization approach for JPEG XL that achieved up to 2.98% compression improvement
-- 🧠 **Large Language Models**: Application based research, working on a project over the summer .
-- 🧬 **Evolutionary Algorithms**: New interest and potential masters area. 
+- 🧠 **Large Language Models**
 - 💻 **Software Engineering**: Building robust, efficient systems with clean architectures
 
 ## Featured Project: JPEG XL Predictor Optimization
