@@ -13,10 +13,10 @@ I enjoy architecting systems to run fast and optimizing existing systems.  My re
 
 ## Current Research: Accelerating Evolution
 **High-Throughput Linear Genetic Programming (LGP) on GPUs**
-I am currently architecting a CUDA-based LGP engine to solve visual reinforcement learning tasks.
+I am currently architecting a CUDA-based LGP engine to solve visual symbolic regression tasks.
 * **Challenge:** Genetic Programming is notorious for branch divergence and irregular memory access.
 * **Solution:** Designing custom memory arenas and flat-array program representations to maximize SIMT efficiency on NVIDIA H100s.
-* **Goal:** 100x training speedup over CPU-based baselines.
+
 
 ## Featured Engineering Projects
 
@@ -26,13 +26,13 @@ I am currently architecting a CUDA-based LGP engine to solve visual reinforcemen
 * **Result:** Achieved 63.36x speedup on Prime Number Generation by optimizing nested loop structures with `collapse(2)` and parallel reductions.
 * **Hardware:** Ported from AMD EPYC 7413 (CPU) to NVIDIA A100-SXM4 (GPU).
 
-### [Parallel LGP Engine for Visual Control](https://github.com/xavierhillroy/LGP-CUDA-Vision)
+### [Parallel LGP Engine for Visual Control](https://github.com/xavierhillroy/LGP_Vision)
 *A distributed evolutionary computing system for Visual Reinforcement Learning.*
 * **Core Tech:** Python, HPC Clusters (Digital Research Alliance)
 * **Result:** Scaled population evaluation across 64 CPU cores, reducing training time by an order of magnitude.
 * **Architecture:** Implemented thread-pool execution to handle variable-length genetic programs without stalling the pipeline.
 
-### [JPEG XL Predictor Optimization](https://github.com/xavierhillroy/jpeg-xl-optimization)
+### [JPEG XL Predictor Optimization](https://github.com/xavierhillroy/libjxl-wop8)
 *Algorithmic optimization of the JPEG XL lossless compression standard.*
 * **Core Tech:** Genetic Algorithms, C++
 * **Result:** Engineered an 8-predictor ensemble (WOP8) that improved compression ratios by 2.98% on medical and document datasets.
