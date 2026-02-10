@@ -1,33 +1,45 @@
-# Hi, I'm Xavier 👋
+# Xavier Hill Roy
 
-## About Me
-Western Computer Science graduate (Class of 2024) with a passion for new technologies and optimization algorithms. My research interests surround image compression, large language models, and evolutionary algorithms. I thrive on solving complex problems through innovative computational approaches.
+## GPU Computing & Systems Engineer
+Master's Student at McMaster University specializing in High-Performance Computing (HPC), GPU Acceleration, and Parallel Systems.
 
-## Research Interests
-- 🧬 **Evolutionary Algorithms**:  Masters area. 
-- 🖼️ **Image Compression**: Advanced lossless compression techniques; developed W-OP8, a weighted optimization approach for JPEG XL that achieved up to 2.98% compression improvement
-- 🧠 **Large Language Models**
-- 💻 **Software Engineering**: Building robust, efficient systems with clean architectures
+I enjoy architecting systems to run fast and optimizing existing systems.  My research focuses on porting irregular evolutionary algorithms to NVIDIA A100s, optimizing memory hierarchy to minimize warp divergence, and scaling workloads across HPC clusters.
 
-## Featured Project: JPEG XL Predictor Optimization
-My thesis research expanded JPEG XL's lossless compression capabilities through predictor optimization:
-- 🔍 Developed W-OP8: an optimized implementation that expands JPEG XL's Weighted Average Predictor from 4 to 8 sub-predictors
-- 🧪 Applied genetic algorithms to discover optimal predictor weight configurations
-- 📊 Achieved compression improvements of 0.64-2.98% across diverse image datasets
-- 🏆 Most effective for medical ultrasound images (2.44% avg improvement) and document images (2.56%)
+## Tech Stack
+* **Languages:** C++ (C++17), CUDA C++, Python, RISC-V Assembly
+* **HPC & Systems:** OpenACC, OpenMP, MPI, Slurm, SIMD/Vectorization
+* **Tools:** Nsight Compute, CMake, gRPC, Protocol Buffers, Linux/Unix
+* **Hardware:** NVIDIA A100/H100, AMD EPYC, Raspberry Pi
 
+## Current Research: Accelerating Evolution
+**High-Throughput Linear Genetic Programming (LGP) on GPUs**
+I am currently architecting a CUDA-based LGP engine to solve visual reinforcement learning tasks.
+* **Challenge:** Genetic Programming is notorious for branch divergence and irregular memory access.
+* **Solution:** Designing custom memory arenas and flat-array program representations to maximize SIMT efficiency on NVIDIA H100s.
+* **Goal:** 100x training speedup over CPU-based baselines.
 
+## Featured Engineering Projects
 
-## Current Work
-I'm currently exploring the JPEG XL lossless image compression, and will be starting a project on document claim validation this summer!  Always open to collaboration on interesting projects!
+### [GPU Optimization Benchmarks](https://github.com/xavierhillroy/gpu-optimization-benchmarks)
+*A collection of performance studies benchmarking serial vs. parallel implementations on data-center hardware.*
+* **Core Tech:** C, OpenACC, NVIDIA A100
+* **Result:** Achieved 63.36x speedup on Prime Number Generation by optimizing nested loop structures with `collapse(2)` and parallel reductions.
+* **Hardware:** Ported from AMD EPYC 7413 (CPU) to NVIDIA A100-SXM4 (GPU).
+
+### [Parallel LGP Engine for Visual Control](https://github.com/xavierhillroy/LGP-CUDA-Vision)
+*A distributed evolutionary computing system for Visual Reinforcement Learning.*
+* **Core Tech:** Python, HPC Clusters (Digital Research Alliance)
+* **Result:** Scaled population evaluation across 64 CPU cores, reducing training time by an order of magnitude.
+* **Architecture:** Implemented thread-pool execution to handle variable-length genetic programs without stalling the pipeline.
+
+### [JPEG XL Predictor Optimization](https://github.com/xavierhillroy/jpeg-xl-optimization)
+*Algorithmic optimization of the JPEG XL lossless compression standard.*
+* **Core Tech:** Genetic Algorithms, C++
+* **Result:** Engineered an 8-predictor ensemble (WOP8) that improved compression ratios by 2.98% on medical and document datasets.
+* **Publication:** Published in *Electronics* (2025).
 
 ## Connect With Me
-- 📫 Email: xavierhillroy@gmail.com
-- 🔗 LinkedIn: https://www.linkedin.com/in/xavier-hill-roy/
+I am always open to discussing GPU architecture, kernel optimization, and systems programming.
 
-
-Feel free to explore my repositories and reach out if you'd like to collaborate or discuss research in image compression, LLMs, or evolutionary algorithms!
-<!---
-xavierhillroy/xavierhillroy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+* **Email:** [hillroyx@mcmaster.ca](mailto:hillroyx@mcmaster.ca)
+* **LinkedIn:** [linkedin.com/in/xavier-hill-roy](https://www.linkedin.com/in/xavier-hill-roy/)
