@@ -7,7 +7,7 @@ I enjoy architecting systems to run fast and optimizing existing systems.  My re
 
 ## Tech Stack
 * **Languages:** C++ (C++17), CUDA C++, Python, RISC-V Assembly
-* **HPC & Systems:** OpenACC, OpenMP, MPI, Slurm, SIMD/Vectorization
+* **HPC & Systems:** CUDA, OpenACC, OpenMP, MPI, Slurm, SIMD/Vectorization
 * **Tools:** Nsight Compute, CMake, gRPC, Protocol Buffers, Linux/Unix
 * **Hardware:** NVIDIA A100/H100, AMD EPYC, Raspberry Pi
 
