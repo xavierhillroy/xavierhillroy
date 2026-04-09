@@ -6,7 +6,7 @@ Master's Student at McMaster University specializing in High-Performance Computi
 I enjoy architecting systems to run fast and optimizing existing systems.  My research focuses on porting irregular evolutionary algorithms to NVIDIA A100s, optimizing memory hierarchy to minimize warp divergence, and scaling workloads across HPC clusters.
 
 ## Tech Stack
-* **Languages:** C++ (C++17), CUDA C++, Python, RISC-V Assembly
+* **Languages:** C++, CUDA C++, Python, RISC-V Assembly
 * **HPC & Systems:** CUDA, OpenACC, OpenMP, MPI, Slurm, SIMD/Vectorization
 * **Tools:** Nsight Compute, CMake, gRPC, Protocol Buffers, Linux/Unix
 * **Hardware:** NVIDIA A100/H100, AMD EPYC, Raspberry Pi
@@ -22,7 +22,7 @@ I am currently architecting a CUDA-based LGP engine to solve visual symbolic reg
 
 ### [GPU Optimization Benchmarks](https://github.com/xavierhillroy/gpu-optimization-benchmarks)
 *A collection of performance studies benchmarking serial vs. parallel implementations on data-center hardware.*
-* **Core Tech:** C, OpenACC, NVIDIA A100
+* **Core Tech:** CUDA C++, OpenACC, NVIDIA A100
 * **Result:** Achieved 63.36x speedup on Prime Number Generation by optimizing nested loop structures with `collapse(2)` and parallel reductions.
 * **Hardware:** Ported from AMD EPYC 7413 (CPU) to NVIDIA A100-SXM4 (GPU).
 
