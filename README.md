@@ -1,7 +1,7 @@
 # Xavier Hill Roy
 
 ## GPU Computing & Systems Engineer
-Master's Student at McMaster University specializing in High-Performance Computing (HPC), GPU Acceleration, and Parallel Systems.
+Master's Student at McMaster University, specializing in  GPU Acceleration, Evolutionary Computing  and Parallel Systems.
 
 I enjoy architecting systems to run fast and optimizing existing systems.  My research focuses on porting irregular evolutionary algorithms to NVIDIA A100s, optimizing memory hierarchy to minimize warp divergence, and scaling workloads across HPC clusters.
 
@@ -25,6 +25,12 @@ I am currently architecting a CUDA-based LGP engine to solve visual symbolic reg
 * **Core Tech:** CUDA C++, OpenACC, NVIDIA A100
 * **Result:** Achieved 63.36x speedup on Prime Number Generation by optimizing nested loop structures with `collapse(2)` and parallel reductions.
 * **Hardware:** Ported from AMD EPYC 7413 (CPU) to NVIDIA A100-SXM4 (GPU).
+
+### [Toy MoE Inference Routing Benchmark](https://github.com/xavierhillroy/<repo-name>)
+*A GPU microbenchmark studying routing and dispatch overhead in Mixture-of-Experts inference.*
+* **Core Tech:** PyTorch, CUDA, Nsight Systems, NVTX
+* **Result:** Benchmarked naive, grouped, and cached-grouped MoE dispatch under uniform and skewed routing patterns; grouping tokens by expert consistently reduced latency versus naive dispatch.
+* **Profiling:** Used Nsight Systems to show that cached grouping removed online routing-plan construction overhead while expert FFN execution remained the dominant cost.
 
 ### [Parallel LGP Engine for Visual Control](https://github.com/xavierhillroy/LGP_Vision)
 *A distributed evolutionary computing system for Visual Reinforcement Learning.*
