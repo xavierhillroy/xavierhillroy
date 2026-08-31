@@ -3,8 +3,7 @@
 ## GPU Computing & Systems Engineer
 Master's Student at McMaster University, specializing in  GPU Acceleration, Evolutionary Computing  and Parallel Systems.
 
-I enjoy architecting systems to run fast and optimizing existing systems.  My research focuses on porting irregular evolutionary algorithms to NVIDIA A100s, optimizing memory hierarchy to minimize warp divergence, and scaling workloads across HPC clusters.
-
+I enjoy hardware software codesign, my goal is to create software to handle big populations of agents to create large population simulations!
 ## Tech Stack
 * **Languages:** C++, CUDA C++, Python, RISC-V Assembly
 * **HPC & Systems:** CUDA, OpenACC, OpenMP, MPI, Slurm, SIMD/Vectorization
